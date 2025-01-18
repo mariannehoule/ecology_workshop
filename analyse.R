@@ -4,7 +4,7 @@ library(ratadat)
 
 #Graphique 
 ggplot(data = complete_old, aes( x = weight, y = hindfoot_length)) +
-  geom_point(color = "blue", alpha = 0.2)
+  geom_point(color = "blue")
 
 #on doit d'abord sauvegarder la modification dans le fichier script ctrl s 
 
